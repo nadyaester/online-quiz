@@ -21,7 +21,7 @@
         </ul>
 
         <hr class="my-3">
-          <ul class="navbar-nav">
+        <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link" href="{{route('quiz.index')}}">
               <i class="ni ni-single-copy-04 "></i>
@@ -30,9 +30,9 @@
           </li>
           <li class="nav-item">
           </li>
-          </ul>
+        </ul>
 
-          <ul class="navbar-nav">
+        <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link" href="{{route('question.index')}}">
               <i class="ni ni-bullet-list-67"></i>
@@ -46,7 +46,7 @@
           <li class="nav-item">
             <a class="nav-link" href="{{route('view.exam')}}">
               <i class="ni ni-laptop"></i>
-              <span class="nav-link-text">Assign Exam</span>
+              <span class="nav-link-text">Assign Quiz</span>
             </a>
           </li>
         </ul>
@@ -73,13 +73,15 @@
           <span class="docs-normal">Documentation</span>
         </h6>
         <!-- Navigation -->
+
         <ul class="navbar-nav mb-md-3">
           <li class="nav-item">
-            <a class="nav-link" href="https://demos.creative-tim.com/argon-dashboard/docs/getting-started/overview.html" target="_blank">
+            <a class="nav-link" href="{{ route('logout') }}" target="_blank">
               <i class="ni ni-spaceship"></i>
-              <span class="nav-link-text">Getting started</span>
+              <span class="nav-link-text">Logout</span>
             </a>
           </li>
+
           <li class="nav-item">
             <a class="nav-link" href="https://demos.creative-tim.com/argon-dashboard/docs/foundation/colors.html" target="_blank">
               <i class="ni ni-palette"></i>

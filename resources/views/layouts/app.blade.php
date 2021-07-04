@@ -10,16 +10,20 @@
     <link rel="icon" href="{{asset('argon/img/brand/favicon.png')}}" type="image/png">
     <!-- Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
+    <script src="https://momentjs.com/downloads/moment.js"></script>
     <!-- Icons -->
     <link rel="stylesheet" href="{{asset('argon/vendor/nucleo/css/nucleo.css')}}" type="text/css">
     <link rel="stylesheet" href="{{asset('argon/vendor/@fortawesome/fontawesome-free/css/all.min.css')}}" type="text/css">
     <!-- Page plugins -->
+    <script src="{{ mix('js/app.js') }}" defer></script>
     <!-- Argon CSS -->
     <link rel="stylesheet" href="{{asset('argon/css/argon.css?v=1.2.0')}}" type="text/css">
+
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- Scripts -->
+
     <script src="{{asset('argon/vendor/jquery/dist/jquery.min.js')}}"></script>
     <script src="{{asset('argon/vendor/bootstrap/dist/js/bootstrap.bundle.min.js')}}"></script>
     <script src="{{asset('argon/vendor/js-cookie/js.cookie.js')}}"></script>
@@ -30,6 +34,8 @@
     <script src="{{asset('argon/vendor/chart.js/dist/Chart.extension.js')}}"></script>
     <!-- Argon JS -->
     <script src="{{asset('argon/js/argon.js?v=1.2.0')}}"></script>
+
+
 
 </head>
 <body class="bg-default">
